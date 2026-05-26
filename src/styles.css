@@ -149,7 +149,46 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background: radial-gradient(ellipse at top, oklch(0.18 0.06 270) 0%, oklch(0.08 0.03 265) 60%, oklch(0.04 0.02 265) 100%);
     color: var(--color-foreground);
+    font-family: "Inter", system-ui, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  .text-gold { color: var(--gold); }
+  .bg-gold { background-color: var(--gold); }
+  .font-arabic { font-family: var(--font-arabic); }
+  .font-display { font-family: var(--font-display); }
+  .glass {
+    background: linear-gradient(135deg, oklch(1 0 0 / 0.06), oklch(1 0 0 / 0.02));
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid oklch(0.82 0.14 85 / 0.18);
+    box-shadow: 0 8px 32px oklch(0 0 0 / 0.4), inset 0 1px 0 oklch(1 0 0 / 0.08);
+  }
+  .gold-glow {
+    box-shadow: 0 0 40px oklch(0.82 0.14 85 / 0.35), 0 0 80px oklch(0.82 0.14 85 / 0.15);
+  }
+  .text-glow {
+    text-shadow: 0 0 20px oklch(0.82 0.14 85 / 0.5), 0 0 40px oklch(0.82 0.14 85 / 0.25);
+  }
+  .gradient-gold {
+    background: linear-gradient(135deg, oklch(0.92 0.12 88), oklch(0.78 0.16 80) 50%, oklch(0.65 0.14 60));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .islamic-pattern {
+    background-image:
+      radial-gradient(circle at 25% 25%, oklch(0.82 0.14 85 / 0.04) 2px, transparent 2px),
+      radial-gradient(circle at 75% 75%, oklch(0.82 0.14 85 / 0.04) 2px, transparent 2px);
+    background-size: 40px 40px;
   }
 }
