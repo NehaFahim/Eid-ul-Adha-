@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Eid-ul-Adha Mubarak" },
+      { name: "description", content: "An interactive Islamic website for Eid-ul-Adha Mubarak, offering animated storytelling and educational content." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Eid-ul-Adha Mubarak" },
+      { property: "og:description", content: "An interactive Islamic website for Eid-ul-Adha Mubarak, offering animated storytelling and educational content." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Eid-ul-Adha Mubarak" },
+      { name: "twitter:description", content: "An interactive Islamic website for Eid-ul-Adha Mubarak, offering animated storytelling and educational content." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/fCoCad7XLvdKFp0sFKz3VyVndxB2/social-images/social-1779816211958-Gemini_Generated_Image_lmk34elmk34elmk3.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/fCoCad7XLvdKFp0sFKz3VyVndxB2/social-images/social-1779816211958-Gemini_Generated_Image_lmk34elmk34elmk3.webp" },
     ],
     links: [
       {
