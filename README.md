@@ -6,7 +6,7 @@ This project beautifully combines Islamic storytelling, animations, and educatio
 ---
 
 ## ✨ Live Preview
-🚀 Add your live link here (Vercel / deployment URL)
+🚀 Add your live link here (https://eid-ul-adha-story.lovable.app/)
 
 ---
 
